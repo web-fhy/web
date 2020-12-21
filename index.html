@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<style type="text/css">
+			.box{
+				width: 100%;
+			}
+			.tab{
+				width: 100%;
+				height: 0.4rem;
+				display: flex;
+			}
+			.tab>img{
+				width: 100%;
+				height: 0.4rem;
+			}
+			.top{
+				width: 90%;
+				height: 0.32rem;
+				margin: 0 auto;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				margin-top: 0.15rem;
+			}
+			.top>p:first-child{
+				width: 2.92rem;
+				height: 100%;
+				display: flex;
+				position: relative;
+				
+			}
+			.top>p:first-child>input{
+				width: 2.32rem;
+				height: 100%;
+				padding-left: 0.2rem;
+				padding-right:0.4rem;
+				border: none;
+				border-radius: 0.16rem;
+				box-shadow: 0 0.05rem 0.1rem #e3e2e2;
+				font-size: 0.1rem;
+			}
+			.top>p:first-child>img{
+				width: 0.15rem;
+				height: 0.16rem;
+				position: absolute;
+				right: 0.2rem;
+				top: 0.1rem;
+				
+			}
+			.top>p:last-child{
+				width: 0.2rem;
+				height: 0.24rem;
+				display: flex;
+			}
+			.top>p:last-child>img{
+				width: 100%;
+				height: 100%;
+			}
+			.bar{
+				width: 90%;
+				height: 1.38rem;
+				margin: 0 auto;
+			}
+			.bar>img{
+				width: 100%;
+				height: 1.38rem;
+			}
+			.lie{
+				width: 90%;
+				display: flex;
+				justify-content: space-between;
+				margin: 0 auto;
+				margin-top: 0.4rem;
+				padding-bottom: 0.15rem;
+			}
+			.lie>ul{
+				width: 0.42rem;
+				height: 0.7rem;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				font-size: 0.1rem;
+			}
+			.lie>ul img{
+				width: 0.42rem;
+				height: 0.41rem;
+			}
+			.xian{
+				width:100%;
+				border:1px solid #eeeeee;
+			}	
+			.like{
+				width: 90%;
+				margin: 0 auto;
+				margin-top: 0.1rem;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				padding-bottom: 0.1rem;
+			}
+			.like>p{
+				width: 100%;
+				height: 0.24rem;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				font-size: 0.15rem;
+				margin-bottom: 0.1rem;
+			}
+			.like>p img{
+				width: 0.08rem;
+				height: 0.12rem;
+				
+			}
+			.like>ul{
+				width: 0.98rem;
+				height: 1.44rem;
+				font-size: 0.1rem;
+			}
+			.like>ul>li:nth-child(2){
+				font-size: 0.13rem;
+				font-weight: bold;
+				margin-top: 0.03rem;
+				margin-bottom: 0.03rem;
+			}
+			.like img{
+				width: 0.96rem;
+				height: 0.95rem;
+			}
+			.like>ul>li:nth-child(3){
+				color: #bcbcbc;
+			}
+			.like2>ul{
+				width: 0.62rem;
+				height: 0.62rem;
+			}
+			.like2 img{
+				width: 0.62rem;
+				height: 0.62rem;
+			}
+			.bar{
+				margin-top: 0.2rem;
+			}
+			.swiper-slide{
+				width: 100%;
+				height: 1.32rem;
+				background: url(img/首页_03.png) no-repeat;
+				background-size: 100% 100%;
+			}
+			.swiper-pagination{
+				top: 0.1rem;
+			}
+			.swiper-pagination span{
+				
+				background: #eaa8a5;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<div class="tab"><img src="img/首页_01.png" ></div>
+			<div class="top">
+				<p>
+					<input type="text" name="" id="" value="" placeholder="请输入需要查找的内容"/>
+					<img src="img/首页_034_03.png" >
+				</p>
+				<p><img src="img/aa.png" ></p>
+			</div>
+			<div class="bar">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide a">
+							
+						</div>
+						<div class="swiper-slide b">
+							
+						</div>
+						<div class="swiper-slide c">
+						
+						</div>
+						<div class="swiper-slide d">
+							
+						</div>
+						<div class="swiper-slide e">
+							
+						</div>
+					</div>
+					<div class="swiper-pagination"></div> <!-- 分页器 -->
+				</div>
+			</div>
+			<div class="lie">
+				<ul>
+					<li><img src="img/首页_06.png" ></li>
+					<li>短信</li>
+				</ul>
+				<ul>
+					<li><img src="img/首页_08.png" ></li>
+					<li>备忘录</li>
+				</ul>
+				<ul>
+					<li><img src="img/首页_10.png" ></li>
+					<li>标签</li>
+				</ul>
+				<ul>
+					<li><img src="img/首页_12.png" ></li>
+					<li>电话</li>
+				</ul>
+				<ul>
+					<li><img src="img/首页_14.png" ></li>
+					<li>视频</li>
+				</ul>
+			</div>
+			<div class="xian"></div>
+			<div class="like">
+				<p>
+					<span>猜你喜欢</span>
+					<span><img src="img/首页_22.png" ></span>
+				</p>
+				<ul>
+					<li><img src="img/首页_24.png" ></li>
+					<li>YUO DESER</li>
+					<li>LEDR</li>
+				</ul>
+				<ul>
+					<li><img src="img/首页_27.png" ></li>
+					<li>YUO DESER</li>
+					<li>LEDR</li>
+				</ul>
+				<ul>
+					<li><img src="img/首页_29.png" ></li>
+					<li>YUO DESER</li>
+					<li>LEDR</li>
+				</ul>
+			</div>
+			<div class="xian"></div>
+			<div class="like like2">
+				<p>
+					<span>歌手信息-推荐</span>
+					<span><img src="img/首页_22.png" ></span>
+				</p>
+				<ul>
+					<li><img src="img/首页_38.png" ></li>
+				</ul>
+				<ul>
+					<li><img src="img/首页_41.png" ></li>
+				</ul>
+				<ul>
+					<li><img src="img/首页_44.png" ></li>
+				</ul>
+				<ul>
+					<li><img src="img/首页_34.png" ></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+	<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/zepto.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		var mySwiper = new Swiper('.swiper-container',{
+			// autoplay:true
+			pagination: {
+			    el: '.swiper-pagination',//添加分页器
+				clickable :true,
+			  },
+			  autoplay:true,//自动播放
+			  loop:true,//循环播放
+			  // mousewheel: true,
+			  
+		})
+	</script>
+</html>
